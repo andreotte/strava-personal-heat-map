@@ -11,6 +11,8 @@ Strava personal heatmap. Display Strava activities on a map using Python, Seleni
 Once logged in, hitting 'enter' will continue the script. When all the activities have been pulled and parsed from the API, 
 a map will open with all your activities. 
 
+#See demo.mp4 for a demonstration of the program running.
+
 #Future goals:
 - Put a front-end on it.
 - Clean up main.py to stop using globals.
