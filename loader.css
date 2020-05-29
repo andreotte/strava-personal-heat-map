@@ -1,0 +1,200 @@
+.container {
+  padding-top: 15%;
+}
+
+h1 {
+  z-index: 150;
+  position: relative;
+  margin: 0 auto;
+  color: black;
+  text-align: center;
+  font-family: "Arial", cursive;
+}
+
+@keyframes move {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.loading {
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+  width: 231px;
+  height: 231px;
+  background:url('https://i.pinimg.com/564x/14/ed/53/14ed534d5b5516c34b6437dd184b397a.jpg');
+  /* background-color: #898F9F; */
+  border-radius: 50%;
+  transform: rotate(0deg);
+  animation-name: move;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.bike {
+  z-index: 25;
+  display: inline-block;
+  position: relative;
+  left: 0px;
+  bottom: 315px;
+}
+
+.spoke {
+  position: relative;
+  z-index: -1;
+  margin-top: 50%;
+  width: 100%;
+  height: 1.5px;
+  background-color: #646C82;
+}
+
+.two {
+  transform: rotate(90deg);
+  bottom: 69px;
+}
+
+.three {
+  transform: rotate(45deg);
+  bottom: 138px;
+}
+
+.four {
+  transform: rotate(-45deg);
+  bottom: 207px;
+}
+
+.under1 {
+  position: relative;
+  top: 40.5px;
+  right: 37.5px;
+  height: 15px;
+  width: 240px;
+  background-color: #4A536A;
+  transform: rotate(-50deg);
+}
+
+.seat1 {
+  position: relative;
+  bottom: 12px;
+  right: 7.5px;
+  height: 19.5px;
+  width: 22.5px;
+  background-color: #1F2843;
+  border-radius: 50%;
+}
+
+.seat2 {
+  position: relative;
+  bottom: 30px;
+  height: 15px;
+  width: 52.5px;
+  background-color: #1F2843;
+  border-radius: 0 50% 33% 0;
+}
+
+.barsmall {
+  position: relative;
+  bottom: 37.5px;
+  background-color: #4A536A;
+  height: 37.5px;
+  width: 15px;
+}
+
+.leftBar {
+  left: 0px;
+  height: 135px;
+  transform: rotate(-10deg);
+}
+
+.rightBar {
+  left: 136.5px;
+  bottom: 172.5px;
+  border-radius: 3px 0 0 0;
+}
+
+.bar1 {
+  z-index: 25;
+  position: relative;
+  bottom: -145.5px;
+  right: 34.5px;
+  background-color: #4A536A;
+  height: 150px;
+  width: 15px;
+  transform: rotate(25deg);
+}
+
+.bar2 {
+  background-color: #4A536A;
+  height: 15px;
+  width: 150px;
+}
+
+.bar3 {
+  z-index: 25;
+  position: relative;
+  bottom: 19.5px;
+  left: 169.5px;
+  background-color: #4A536A;
+  height: 150px;
+  width: 15px;
+  transform: rotate(-25deg);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.wheel {
+  height: 150px;
+  width: 150px;
+  border: black 7.5px solid;
+  border-radius: 50%;
+  transform: rotate(0deg);
+  animation-name: spin;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.left {
+  position: relative;
+  position: relative;
+  right: 127.5px;
+  bottom: 262.5px;
+}
+
+.right {
+  position: relative;
+  left: 127.5px;
+  bottom: 112.5px;
+}
+
+.circle-small {
+  position: relative;
+  background-color: #1F2843;
+  height: 22.5px;
+  width: 22.5px;
+  border-radius: 50%;
+  bottom: 67.5px;
+  left: 22.5px;
+}
+
+.tiny {
+  position: relative;
+  bottom: 25.5px;
+  left: 12px;
+  background-color: #4A536A;
+  height: 37.5px;
+  width: 15px;
+  transform: rotate(45deg);
+}
+
+/*# sourceMappingURL=loader.css.map */
